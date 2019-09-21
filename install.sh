@@ -95,20 +95,21 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 CASKS=(
-    colluquy
+    alfred
+    docker
     dropbox
     firefox
-    flux
+    franz
+    github
     google-chrome
     google-drive
-    gpgtools
     iterm2
-    macvim
+    jetbrains-toolbox
+    launchrocket
     skype
     slack
     spectacle
-    vagrant
-    virtualbox
+    spotify
     vlc
 )
 
