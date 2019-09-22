@@ -137,7 +137,7 @@ CASKS=(
 echo "installing apps with Cask..."
 brew cask install ${CASKS[@]}
 
-brew cask alfred link
+brew cask install alfred
 
 echo "Installing fonts..."
 brew tap caskroom/fonts
