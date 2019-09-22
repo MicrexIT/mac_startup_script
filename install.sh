@@ -117,12 +117,10 @@ CASKS=(
     franz
     github
     google-chrome
-    google-drive
     iterm2
     jetbrains-toolbox
     launchrocket
     notion
-    onepassword
     skype
     slack
     spectacle
@@ -136,8 +134,6 @@ CASKS=(
 # Default is: /Users/$user/Applications
 echo "installing apps with Cask..."
 brew cask install ${CASKS[@]}
-
-brew cask install alfred
 
 echo "Installing fonts..."
 brew tap caskroom/fonts
