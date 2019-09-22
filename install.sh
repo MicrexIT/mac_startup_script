@@ -169,9 +169,6 @@ npm install marked -g
 
 echo "Installing and setting up neovim"
 git clone https://github.com/ctaylo21/jarvis.git
-cd ~/jarvis
-./install.sh
-cd
 
 
 echo "Configuring OSX..."
